@@ -1,1 +1,5 @@
-
+// In a sentence, explain the behavior you expected. (E.g., "I expected the code to draw 24 lines.")
+// In a sentence, explain the observed behavior. (E.g., "The code draws 21 lines.")
+// Formulate a hypothesis about what might be causing the mismatch
+// Test your hypothesis: what action can you take you determine if your hypothesis is true?
+// Was your hypothesis confirmed? If so, fix the issue. If your hypothesis was not confirmed, repeat with a new hypothesis!
