@@ -6,3 +6,8 @@
 
 
 //Why are the crosses not repeating?
+// Remember that for a nested while loop to run multiple times inside of its parent while loop, 
+   one must reset its value to zero in the parent while loop.
+   
+//Processing is additive. So if I want to create the illusion of a continuous animation I need to redraw everything, every frame.
+
