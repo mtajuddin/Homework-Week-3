@@ -11,3 +11,11 @@
    
 //Processing is additive. So if I want to create the illusion of a continuous animation I need to redraw everything, every frame.
 
+//At first I put the y underneath the parent while loop but that didn't work
+//b-c the y values were incremented and then set to zero when the parent
+//while loop ran. So I then put the code to set y and y1 in the nested while
+//loop b-c I thought that after the parent while loop ran again then the y and y1 would start a new row with x and x1 being 0.
+//This didn't work b-c the x and y coordinates were changing at the same time.
+//I then decided that I should put the y = 0 and y1 = 0 outside of the while loop
+//I reasoned that this would change the y and y1 value after the x and x1 values which would create the rows
+//Fortunately that change worked!
